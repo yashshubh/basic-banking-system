@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banking System</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content=" Banking System provides banking services like saving account, fixed deposits, Transfer Money Feature ..">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yash Kumar">
+
+    <link rel="stylesheet" type="text/css" href="singleCustomer.css">
+</head>
+
+<body>
+    <div class="logo"><a href="index.html#"><img src="free.jpeg"></a></div>
+
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html#">Home</a></li>
+            <li><a href="index.html#abc">About Us</a>
+            </li>
+            <li><a href="customer.html">Customers</a>
+            </li>
+            <li><a href="transferHistory.html"><b>Transfer
+                        History</b></a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1 id="custom"> Customer Detail</h1>
+
+
+
+    <div class="container">
+        <div class="sub-container">
+            <div>Account Id</div>
+            <div id="sub-data0"></div>
+
+        </div>
+        <div class="sub-container">
+            <div>Name</div>
+            <div id="sub-data1"></div>
+        </div>
+
+        <div class="sub-container">
+            <div>Email</div>
+            <div id="sub-data2"></div>
+        </div>
+
+        <div class="sub-container">
+            <div>Balance </div>
+            <div id="sub-data3"></div>
+        </div>
+
+
+        <div id="single-customer">
+
+        </div>
+    </div>
+    <div class="loader1" id="loading1"></div>
+
+    <div class="btn">
+        <input id="amount" class="enter-amount" type="text" class="ammount" placeholder="Enter Amount">
+
+        <select id="transfer" name="Enter Amount" class="enter-customer">
+            <option>Select Customer
+            <option id="d0">
+            <option id="d1">
+            <option id="d2">
+            <option id="d3">
+            <option id="d4">
+            <option id="d5">
+            <option id="d6">
+            <option id="d7">
+            <option id="d8">
+        </select>
+    </div>
+    <button type="button" id="clickButtons" class="goto" onclick="transferAmount()">Transfer Money</button>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+
+
+
+    <script src="singleCustomer.js"></script>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>

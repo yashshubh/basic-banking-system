@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Transfer History</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content=" Banking Systemvprovides banking services like saving account, fixed deposits, Transfer Money Feature ..">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yash Kumar">
+    <link rel="stylesheet" type="text/css" href="transferHistory.css" </head> <body>
+    <div class="logo"><a href="index.html#"><img src="free.jpeg"></a></div>
+
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html#">Home</a></li>
+            <li><a href="index.html#abc">About Us</a>
+            </li>
+            <li><a href="customer.html">Customers</a>
+            </li>
+            <li><a href="transferHistory.html"><b>Transfer
+                        History</b></a></li>
+        </ul>
+    </nav>
+    <h1 id="tranamt">Transfer History of Customers</h1>
+
+    <div class="loaders" id="loadings"></div>
+
+    <table id="transTable" class="history-table">
+        <thead>
+            <tr>
+                <th>Sender Id</th>
+                <th>Receiver Id</th>
+                <th>Amount</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody id="tbody2">
+
+
+        </tbody>
+
+    </table>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+
+    <script src="transferHistory.js"></script>
+    </body>
+
+</html>
